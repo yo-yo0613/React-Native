@@ -16,7 +16,7 @@ export default function App() {
           height: 70,
           borderRadius: 100,
           backgroundColor: 'dodgerblue',
-        }}></View>
+        }}>button</View>
       </TouchableNativeFeedback>
       <StatusBar style="auto" />/
     </SafeAreaView>
