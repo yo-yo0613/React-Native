@@ -3,8 +3,8 @@ import { StyleSheet, Text, View , Button, SafeAreaView} from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={{backgroundColor}}>
-      <Button title='Click Me'></Button>
+    <SafeAreaView style={[styles.container, containerStyle]}>
+      <Button title='Click Me' onPress={()=>console.log("load")}></Button>
     </SafeAreaView>
   );
 }
